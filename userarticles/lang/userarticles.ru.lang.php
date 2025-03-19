@@ -44,3 +44,6 @@ $L['userarticles_articles_on_page'] = 'Статей на этой страниц
 $L['userarticles_search_label'] = 'Поиск по имени пользователя';
 $L['userarticles_search_placeholder'] = 'Введите имя пользователя';
 $L['userarticles_search_button'] = 'Найти';
+
+$L['userarticles_all_categories'] = 'Все категории';
+$L['userarticles_category_filter_label'] = 'Фильтр по категории';
