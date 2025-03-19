@@ -47,3 +47,5 @@ $L['userarticles_search_button'] = 'Найти';
 
 $L['userarticles_all_categories'] = 'Все категории';
 $L['userarticles_category_filter_label'] = 'Фильтр по категории';
+
+$L['userarticles_posted_on_website'] = 'опубликовал на сайте сообщества';
