@@ -113,7 +113,8 @@ Of course, you should create these folders if they don’t already exist.
 Feel free to submit issues or pull requests on GitHub if you find bugs or want to improve the plugin!
 
 ---
-
+<p><a href="https://abuyfile.com/ru/forums/cotonti/custom/plugs/topic125"><strong>The topic for support and discussion of the plugin.</strong></a></p>
+<hr>
 
 # Плагин "Статьи пользователей" для Cotonti
 
@@ -222,3 +223,4 @@ Feel free to submit issues or pull requests on GitHub if you find bugs or want t
 Если найдёте ошибки или захотите улучшить плагин, создавайте issues или pull requests на GitHub!
 
 ---
+<p><a href="https://abuyfile.com/ru/forums/cotonti/custom/plugs/topic125"><strong>Тема поддержи и обсуждение плагина.</strong></a></p>
