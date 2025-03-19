@@ -1,5 +1,5 @@
 # cot-userarticles
-The plugin for CMF Cotonti displays a list of users with the number of their articles and a detailed list of articles for each user
+The plugin for [CMF Cotonti](https://github.com/Cotonti/Cotonti) displays a list of users with the number of their articles and a detailed list of articles for each user
 
 # User Articles Plugin for Cotonti
 
@@ -10,7 +10,7 @@ The **User Articles** plugin is a simple and useful tool for Cotonti CMF-based w
 ### Features
 - **User List**: Shows all users with the total number of their published articles.
 - **Article Details**: Displays a detailed list of articles for each user, including category, title, publication date, update date, and view count.
-- **Pagination**: Supports easy navigation through users and articles with Bootstrap 5.3.3-styled pagination.
+- **Pagination**: Supports easy navigation through users and articles with [Bootstrap 5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)-styled pagination.
 - **Localization**: Available in English (`en`) and Russian (`ru`), with customizable language strings.
 - **Configurable Limits**: Set the maximum number of users or articles per page via the admin panel.
 
@@ -51,6 +51,19 @@ Download ZIP file from GitHub [userarticles](https://github.com/webitproff/cot-u
 - Save your changes.
 
 5. **Check It Out**
+- In any part of your theme, include a link to the plugin using an example like this:
+
+			<!-- IF {PHP|cot_plugin_active('userarticles')} -->
+			<li>
+			  <a class="uk-link-muted" href="{PHP|cot_url('plug', 'e=userarticles')}">
+				<span class="uk-margin-small-x uk-light">
+				  <i class="fa-solid fa-file-lines fa-xl"></i>
+				</span>
+				<span class="uk-text-middle">{PHP.L.userarticles_title}</span>
+			  </a>
+			</li>
+			<!-- ENDIF -->
+  
 - Visit the plugin page on your site: `yourwebsite.com/index.php?e=userarticles`.
 - You should see a list of users with their article counts.
 - Click a username to view their articles: `yourwebsite.com/index.php?e=userarticles&action=details&uid=[user_id]`.
@@ -83,7 +96,11 @@ Download ZIP file from GitHub [userarticles](https://github.com/webitproff/cot-u
 ## Notes
 - Ensure your Cotonti installation has the `page` and `users` modules enabled, as this plugin relies on them.
 - Tested with Bootstrap 5.3.3 for styling, but you can adapt it to other frameworks by editing the templates.
-
+- In the folder `plugins/userarticles/tpl/tpl_for_UIkit_3`, there are templates for [UIkit 3](https://getuikit.com/docs/introduction).
+If you are using UIkit 3, you need to copy these two templates, `userarticles.details.tpl` and `userarticles.tpl`, to your theme folder at the following path:
+`/themes/myskin/plugins/userarticles`
+where "myskin" is the name of your theme (the main site template).
+Of course, you should create these folders if they don’t already exist.
 ---
 
 ## Contributing
@@ -142,6 +159,19 @@ Feel free to submit issues or pull requests on GitHub if you find bugs or want t
 - Сохраните изменения.
 
 5. **Проверьте работу**
+- в любом месте своей темы подключите ссылку на плагин по примеру вида:
+  			
+  <!-- IF {PHP|cot_plugin_active('userarticles')} -->
+			<li>
+			  <a class="uk-link-muted" href="{PHP|cot_url('plug', 'e=userarticles')}">
+				<span class="uk-margin-small-x uk-light">
+				  <i class="fa-solid fa-file-lines fa-xl"></i>
+				</span>
+				<span class="uk-text-middle">{PHP.L.userarticles_title}</span>
+			  </a>
+			</li>
+	<!-- ENDIF -->
+ 
 - Откройте страницу плагина на сайте: `yourwebsite.com/index.php?e=userarticles`.
 - Вы увидите список пользователей с количеством их статей.
 - Кликните по имени пользователя, чтобы посмотреть его статьи: `yourwebsite.com/index.php?e=userarticles&action=details&uid=[user_id]`.
@@ -174,7 +204,12 @@ Feel free to submit issues or pull requests on GitHub if you find bugs or want t
 ## Замечания
 - Убедитесь, что на вашем сайте включены модули `page` и `users`, так как плагин зависит от них.
 - Стилизация выполнена под Bootstrap 5.3.3, но вы можете адаптировать шаблоны под другие фреймворки.
-
+- в папке `plugins/userarticles/tpl/tpl_for_UIkit_3`
+лежат шаблоны для **[UIkit 3](https://getuikit.com/docs/introduction)**
+Если вы используете UIkit 3, то эти два шаблона `userarticles.details.tpl` и `userarticles.tpl` нужно скопировать в папку с вашей темой по адресу:<br />
+**`/themes/myskin/plugins/userarticles`** <br />
+где "myskin" - название вашей темы (основной шаблон сайта)
+и разумеется создать такие папки, если их нет
 ---
 
 ## Как помочь проекту
