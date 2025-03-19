@@ -41,3 +41,6 @@ $L['userarticles_articles_on_page'] = 'Articles on This Page';
 $L['userarticles_search_label'] = 'Search by username';
 $L['userarticles_search_placeholder'] = 'Enter username';
 $L['userarticles_search_button'] = 'Search';
+
+$L['userarticles_all_categories'] = 'All categories';
+$L['userarticles_category_filter_label'] = 'Filter by category';
