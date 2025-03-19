@@ -2,7 +2,13 @@
 The plugin for [CMF Cotonti](https://github.com/Cotonti/Cotonti) displays a list of users with the number of their articles and a detailed list of articles for each user
 
 # User Articles Plugin for Cotonti
+<a href="https://github.com/webitproff/cot-userarticles/blob/main/userarticles_01.png" title="User Articles Plugin for Cotonti">
+	<img src="https://github.com/webitproff/cot-userarticles/blob/main/userarticles_01.png" alt="User Articles Plugin for Cotonti">
+</a>
 
+<a href="https://github.com/webitproff/cot-userarticles/blob/main/userarticles_02.png" title="User Articles Plugin for Cotonti">
+	<img src="https://github.com/webitproff/cot-userarticles/blob/main/userarticles_02.png" alt="User Articles Plugin for Cotonti">
+</a>
 ## Overview
 
 The **User Articles** plugin is a simple and useful tool for Cotonti CMF-based websites. It allows you to display a list of users along with the number of articles they've published, and provides a detailed view of each user's articles. This plugin is perfect for communities, blogs, or any site where user-generated content is key.
