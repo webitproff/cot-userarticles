@@ -4,8 +4,8 @@
 Code=userarticles
 Name=User Articles
 Description=Displays a list of users with their article counts and detailed article lists per user
-Version=1.0.0
-Date=2025-03-18
+Version=1.0.1
+Date=2025-03-19
 Author=cot_webitproff
 Copyright=(c) 2025 cot_webitproff
 Notes=
