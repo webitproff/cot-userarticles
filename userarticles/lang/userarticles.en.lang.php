@@ -16,6 +16,7 @@ $L['info_notes'] = 'Tested on Cotonti 0.9.26 with PHP 8.2';
 $L['plu_title'] = 'User Articles'; // See class ExtensionsHelper
 $L['userarticles_title'] = 'User Articles'; // See class ExtensionsHelper
  */
+$L['userarticles_title'] = 'User Articles';
 $L['cfg_max_rows_per_pages'] = 'Maximum number of articles per page (in userarticles.details.tpl template)';
 $L['cfg_max_rows_per_users'] = 'Maximum number of users per page (in userarticles.tpl template)';
 
@@ -27,7 +28,7 @@ $L['userarticles_no_articles'] = 'This user has no published articles';
 $L['userarticles_username'] = 'Username';
 $L['userarticles_article_count'] = 'Article Count';
 $L['userarticles_category'] = 'Category';
-$L['userarticles_title_page'] = 'Title'; // Changed from "userarticles_title" to "userarticles_title_page" as in your code
+$L['userarticles_title_page'] = 'Title'; // Changed from "userarticles_title" to "userarticles_title_page" 
 $L['userarticles_date'] = 'Publication Date';
 $L['userarticles_updated'] = 'Update Date';
 $L['userarticles_views'] = 'Views';
