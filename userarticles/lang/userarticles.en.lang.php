@@ -45,3 +45,5 @@ $L['userarticles_search_button'] = 'Search';
 
 $L['userarticles_all_categories'] = 'All categories';
 $L['userarticles_category_filter_label'] = 'Filter by category';
+
+$L['userarticles_posted_on_website'] = 'posted on the community website';
