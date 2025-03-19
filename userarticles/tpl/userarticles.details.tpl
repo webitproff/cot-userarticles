@@ -7,6 +7,16 @@
 	  </ol>
 	</nav>
 
+    <!-- Выпадающий список категорий -->
+    <form action="{PHP.sys.request_uri}" method="get" class="mb-4">
+        <input type="hidden" name="e" value="userarticles" />
+        <input type="hidden" name="action" value="details" />
+        <input type="hidden" name="uid" value="{USER_ID}" />
+        <div class="mb-3">
+            <label class="form-label" for="cat">{PHP.L.userarticles_category_filter_label}</label>
+            {CATEGORY_FILTER}
+        </div>
+    </form>
 
     <!-- BEGIN: ARTICLE_LIST -->
     <div class="table-responsive">
