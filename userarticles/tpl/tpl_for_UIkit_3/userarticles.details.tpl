@@ -5,6 +5,19 @@
         <li class="uk-active">{PHP.L.userarticles_details_title}: <a href="{USER_PROFILE_URL}">{USER_NAME}</a></li>
     </ul>
 
+    <!-- Выпадающий список категорий -->
+    <form action="{PHP.sys.request_uri}" method="get" class="uk-form-stacked uk-margin-bottom">
+        <input type="hidden" name="e" value="userarticles" />
+        <input type="hidden" name="action" value="details" />
+        <input type="hidden" name="uid" value="{USER_ID}" />
+        <div class="uk-margin">
+            <label class="uk-form-label" for="cat">{PHP.L.userarticles_category_filter_label}</label>
+            <div class="uk-form-controls">
+                {CATEGORY_FILTER}
+            </div>
+        </div>
+    </form>
+
     <!-- BEGIN: ARTICLE_LIST -->
     <div class="uk-overflow-auto">
         <table class="uk-table uk-table-striped uk-table-hover">
