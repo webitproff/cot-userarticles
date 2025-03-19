@@ -1,6 +1,8 @@
 # cot-userarticles
 The plugin for [CMF Cotonti](https://github.com/Cotonti/Cotonti) displays a list of users with the number of their articles and a detailed list of articles for each user
 
+## [Demonstation](https://abuyfile.com/en/userarticles)
+
 # User Articles Plugin for Cotonti
 <a href="https://github.com/webitproff/cot-userarticles/blob/main/userarticles_01.png" title="User Articles Plugin for Cotonti">
 	<img src="https://github.com/webitproff/cot-userarticles/blob/main/userarticles_01.png" alt="User Articles Plugin for Cotonti">
@@ -117,6 +119,8 @@ Feel free to submit issues or pull requests on GitHub if you find bugs or want t
 <hr>
 
 # Плагин "Статьи пользователей" для Cotonti
+
+## [Демонстрация](https://abuyfile.com/ru/userarticles)
 
 ## Описание
 
