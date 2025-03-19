@@ -18,6 +18,7 @@ $L['userarticles_title'] = 'User Articles'; // See class ExtensionsHelper
  */
 $L['cfg_max_rows_per_pages'] = 'Maximum number of articles per page (in userarticles.details.tpl template)';
 $L['cfg_max_rows_per_users'] = 'Maximum number of users per page (in userarticles.tpl template)';
+$L['userarticles_title'] = 'User Articles';
 
 $L['userarticles_list_title'] = 'List of Users and Their Articles';
 $L['userarticles_details_title'] = 'User Articles';
